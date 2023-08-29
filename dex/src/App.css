@@ -10,6 +10,13 @@ header {
 .headerItem {
   display: flex;
   align-items: center;
+  padding: 10px 20px;
+  border-radius: 100px;
+}
+
+.headerItem:hover {
+  cursor: pointer;
+  background-color: rgb(34, 42, 58);
 }
 
 .leftH {
@@ -25,13 +32,18 @@ header {
   gap: 20px;
 }
 
-.connectButton{
-  background-color: #243056; 
-  padding: 10px 20px 10px 20px;
+.connectButton {
+  background-color: #243056;
+  padding: 10px 20px;
   border-radius: 100px;
-  color: #5981F3;
+  color: #5981f3;
   font-weight: bold;
-  transition: 0.3s;
+  /*transition: 0.3s;*/
+}
+
+.connectButton:hover {
+  background-color: #3b4874;
+  cursor: pointer;
 }
 
 .logo {
@@ -43,4 +55,45 @@ header {
   padding-right: 10px;
   width: 20px;
   height: 20px;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.tradeBox {
+  width: 400px;
+  background-color: #0e111b;
+  border: 2px solid #21273a;
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 15px;
+  min-height: 300px;
+  align-items: flex-start;
+}
+
+.mainWindow {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.tradeBoxHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.cog {
+  color: #51586f;
+  transition: 0.3s;
+}
+
+.cog:hover {
+  color: white;
+  rotate: 90deg;
+  cursor: pointer;
 }
