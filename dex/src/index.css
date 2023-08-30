@@ -54,3 +54,113 @@ body {
 .ant-popover-arrow {
   visibility: hidden;
 }
+
+.ant-input {
+  height: 96px;
+  background-color: #1f2639 !important;
+  border-width: 0px !important;
+  color: white !important;
+  font-size: 35px;
+  border-radius: 12px;
+  margin-bottom: 5px;
+}
+
+.ant-input::placeholder {
+  color: #5f6783 !important;
+}
+
+.ant-modal-content {
+  padding: 0px !important;
+  background-color: #0e111b !important;
+  color: white !important;
+  position: relative;
+}
+
+.ant-list-item {
+  padding: 0px !important;
+  border-block-end: 0px !important;
+}
+
+.ant-list-item-meta {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.ant-list-item-meta:hover{
+  cursor: pointer !important;
+  background-color: #1f2639 !important;
+}
+
+.ant-list-item-meta-title {
+  color: white !important;
+}
+
+.ant-list-item-meta-description {
+  color: white !important;
+  font-size: 13px !important;
+  font-weight: 300 !important;
+  color: #51596f !important;
+}
+
+.ant-modal {
+  border-radius: 10px;
+  border: 1px solid #363e54;
+  padding-bottom: 5px;
+  background-color: #0e111b;
+  width: 400px !important;
+}
+
+.ant-modal-title {
+  color: white !important;
+}
+
+.ant-modal-header {
+  padding-top: 20px;
+  padding-left: 20px;
+  background: #0e111b !important;
+}
+
+.ant-modal-body {
+  border-top: 1px solid #363e54;
+  margin-top: 20px;
+}
+
+.ant-modal-close {
+  position: absolute;
+  top: 20px !important;
+  
+}
+
+.ant-modal-close-icon{
+  color: #363e54 !important;
+}
+
+.ant-list-item-meta {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.ant-list-item-meta-title {
+  margin: 0px;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+}
+
+.ant-pagination-item {
+  background-color: #0e111b !important;
+  border-color: #363e54 !important;
+  color: white !important;
+}
+
+.ant-pagination-item a {
+  color: white !important;
+}
+
+.anticon {
+  color: white;
+}

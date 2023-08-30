@@ -1,22 +1,25 @@
+.App {
+  text-align: center;
+}
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-left: 50px;
   padding-right: 50px;
-  padding-top: 20px;
+  height: 100px;
 }
 
 .headerItem {
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: 0.3s;
   display: flex;
   align-items: center;
-  padding: 10px 20px;
-  border-radius: 100px;
-}
-
-.headerItem:hover {
-  cursor: pointer;
-  background-color: rgb(34, 42, 58);
 }
 
 .leftH {
@@ -38,7 +41,7 @@ header {
   border-radius: 100px;
   color: #5981f3;
   font-weight: bold;
-  /*transition: 0.3s;*/
+  transition: 0.3s;
 }
 
 .connectButton:hover {
@@ -49,6 +52,7 @@ header {
 .logo {
   width: 50px;
   height: 50px;
+  padding-right: 20px;
 }
 
 .polygon {
@@ -67,6 +71,7 @@ header {
   background-color: #0e111b;
   border: 2px solid #21273a;
   display: flex;
+  flex-direction: column;
   padding-left: 30px;
   padding-right: 30px;
   border-radius: 15px;
@@ -96,4 +101,78 @@ header {
   color: white;
   rotate: 90deg;
   cursor: pointer;
+}
+
+.inputs {
+  position: relative;
+}
+
+.assetOne {
+  display: flex;
+  position: absolute;
+  min-width: 50px;
+  height: 30px;
+  background-color: #3a4157;
+  top: 36px;
+  right: 20px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  font-weight: bold;
+  font-size: 17px;
+  padding-right: 8px;
+}
+
+.assetTwo {
+  position: absolute;
+  min-width: 50px;
+  height: 30px;
+  background-color: #3a4157;
+  top: 135px;
+  right: 20px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  font-weight: bold;
+  font-size: 17px;
+  padding-right: 8px;
+}
+
+.assetLogo {
+  height: 22px;
+  margin-left: 5px;
+}
+
+.switchButton {
+  display: flex;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  background-color: rgb(58, 65, 87);
+  border-radius: 8px;
+  border: 3px solid rgb(14, 17, 27);
+  color: #5f6783;
+  justify-content: center;
+  position: absolute;
+  top: 81.25px;
+  left: 184.5px;
+  transition: 0.3s;
+  font-size: 12px;
+}
+
+.assetOne:hover {
+  cursor: pointer;
+}
+
+.assetTwo:hover {
+  cursor: pointer;
+}
+
+.tokenLogo {
+  height: 40px;
+  width: 40px;
 }
