@@ -1,4 +1,4 @@
 node_modules/
 .env
-dex/*/node_modules/
-dexBack/*/node_modules/
+dex/node_modules/
+dexBack/node_modules/
